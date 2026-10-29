@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2563eb">
+  <title>MedChat — Connect Simply</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="logo">M</div>
+    <div>
+      <h1>MedChat</h1>
+      <p>Connect simply. Chat freely.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Welcome to MedChat 👋</h2>
+      <p>Your new messaging experience starts here. Send a message below to try the interface.</p>
+    </section>
+
+    <section class="chat">
+      <div class="chat-title">💬 My conversation</div>
+      <div id="messages" aria-live="polite">
+        <div class="message received">Welcome to MedChat! Your messaging interface is ready.</div>
+      </div>
+      <form class="composer" id="chatForm">
+        <input id="messageInput" type="text" placeholder="Type a message..." autocomplete="off" aria-label="Type a message" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>MedChat © 2026 · Built for connection</footer>
+  <script src="app.js"></script>
+</body>
+</html>
